@@ -1,0 +1,22 @@
+import React from 'react'
+import Hero from '../components/Hero/Hero'
+import About from '../components/About/About'
+import Services from '../components/Services/Services'
+import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs'
+import Testimonials from '../components/Testimonials/Testimonials'
+import Contact from '../components/Contact/Contact'
+
+function Home() {
+  return (
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <WhyChooseUs />
+      <Testimonials />
+      <Contact />
+    </>
+  )
+}
+
+export default Home
